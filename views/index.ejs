@@ -20,6 +20,81 @@
   </head>
   <body>  
 
+    <header>
+      <div id="titulo">
+        <h1>Mi Aplicación</h1>
+      </div>
+      <nav id="nav">
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="pantalla-completa">
+      <div class="caja-centrada">
+        
+        <div class="columna texto">
+          <h2>¡Bienvenido!</h2>
+          <p>Descubre todas las funcionalidades que tenemos
+            preparadas para ti. Únete a nuestra comunidad y
+            empieza a disfrutar de una experiencia única.
+
+            Accede a tu cuenta o regístrate en segundos para
+            comenzar tu aventura con nosotros.</p>
+        </div>
+  
+    
+        <div class="columna interactiva">
+
+          <div class="tarjetas">
+
+            <div class="tarjeta" id="tarjeta-registrado">
+              <h3>Ya estoy registrado</h3>
+            </div>
+            <div class="tarjeta" id="tarjeta-noregistrado">
+              <h3>No estoy registrado aún</h3>
+
+            </div>
+          </div>
+  
+
+          <form id="form-registrado" class="formulario">
+
+            <h3>Iniciar sesión</h3>
+            <input type="email" placeholder="Correo" required>
+            <input type="password" placeholder="Contraseña" required>
+
+            <div class="botones-form">
+              <button type="submit" class="enviar">Enviar</button>
+              <button type="button" class="cancelar">Cancelar</button>
+            </div>
+          </form>
+  
+          <form id="form-noregistrado" class="formulario">
+            <h3>Registro</h3>
+            <input type="email" placeholder="Correo" required>
+
+            <div class="botones-form">
+              <button type="submit" class="enviar">Enviar</button>
+              <button type="button" class="cancelar">Cancelar</button>
+            </div>
+          </form>
+        </div>
+  
+      </div>
+    </section>
+  
+    <script src="/javascripts/app.js"></script>
+    
+
+    <footer>
+      <p>By Marta Trujillo, 2025</p>
+    </footer>
+    
+
 
 
     </body>
